@@ -4,7 +4,7 @@ as published in Radiology 2021 "Deep Learning for Automated Triaging of 4581 Bre
 
 Citation: {Verburg, E., van Gils, C. H., van der Velden, B. H., Bakker, M. F., Pijnappel, R. M., Veldhuis, W. B., & Gilhuijs, K. G. (2022). Deep learning for automated triaging of 4581 breast MRI examinations from the DENSE trial. Radiology, 302(1), 29-36.}
 
-#INPUT
+## INPUT
 Multiple input files are required to run the code. 
 -The model weights
 -Input images
@@ -15,7 +15,7 @@ was completed 8 weightfiles are present. In addition to that also a weight file 
 Enclosed are also three example images which can be traiged by the model. The images are Maximal intensity projection (MIP) of one breast in Sagital
 transversal and coronal direction. The MIP images are prepared as described in the publication. In the outcomes in the publication was the average outcome over the three MIP directions.
 
-#OUTPUT
+## OUTPUT
 Output of the model are probabilities for lesion presence and SHAP images showing the areas on which the prediction in based.
 
 
