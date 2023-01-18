@@ -1,22 +1,19 @@
 # AI Triaging DENSE
-The code presented here is a simplified piece of code used for traiging of screening breast MRI in women with extremly dense breast
-as published in Radiology 2021 "Deep Learning for Automated Triaging of 4581 Breast MRI Examinations from the DENSE Trial"
+Presented here is simplified code used in the Radiology 2022 publication "Deep Learning for Automated Triaging of 4581 Breast MRI Examinations from the DENSE Trial"
 
-Citation: {Verburg, E., van Gils, C. H., van der Velden, B. H., Bakker, M. F., Pijnappel, R. M., Veldhuis, W. B., & Gilhuijs, K. G. (2022). Deep learning for automated triaging of 4581 breast MRI examinations from the DENSE trial. Radiology, 302(1), 29-36.}
+Citation: {Verburg, E., van Gils, C. H., van der Velden, B. H. M., Bakker, M. F., Pijnappel, R. M., Veldhuis, W. B., & Gilhuijs, K. G. A. (2022). Deep learning for automated triaging of 4581 breast MRI examinations from the DENSE trial. Radiology, 302(1), 29-36.}
 
 ## INPUT
 Multiple input files are required to run the code. 
 -The model weights
 -Input images
 
-The  model weights resulted form the train data which was used in for publication is enclosed. Because 8 fold internal external valiation
-was completed 8 weightfiles are present. In addition to that also a weight file is added were all data is used to train the model.
+The  model weights resulting from training are enclosed. Because eight-fold internal-external valiation was performed, eight weight files are present. In addition, a weight file has been added resulting from training all data from all folds combined.
 
-Enclosed are also three example images which can be traiged by the model. The images are Maximal intensity projection (MIP) of one breast in Sagital
-transversal and coronal direction. The MIP images are prepared as described in the publication. In the outcomes in the publication was the average outcome over the three MIP directions.
+The input images must be Maximum Intensity projection (MIP) images of a single breast in Sagital, transversal and coronal direction. The MIP images should be prepared as described in the publication. The results reported in the publication are the averages derived from the three MIP directions.
 
 ## OUTPUT
-Output of the model are probabilities for lesion presence and SHAP images showing the areas on which the prediction in based.
+The output of the model consists of probabilities of lesion presence and SHAP images showing the regions on which the predictions are based.
 
 
 
